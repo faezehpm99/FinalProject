@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/darkGray"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="86dp"
+            android:layout_height="54dp"
+            android:src="@drawable/ic_baseline_person_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="20dp"
+            android:text="my store"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+    </FrameLayout>
+</layout>
